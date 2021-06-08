@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+}
+/*-------NavigationBar--------*/
+#nav-bar{
+	background: #00008B!important; 
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.brand{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+	padding: 0px 15px;
+	border: 3px;
+	border-radius: 50px;
+}
+.brand .logo-text{
+	font-family: 'Allerta Stencil', sans-serif;
+}
+.brand:hover{
+	cursor: pointer;
+	color: #fff!important;
+	text-decoration: none;
+}
+.navbar-nav li a{
+	color: #fff!important;
+	text-align: center;
+	padding: 2 10px;
+ 	font-size: 14px;
+}
+.navbar-nav li a::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	margin: auto;
+	display: block;
+	transition: 0.5s;
+	text-align: left;
+}
+.collapse ul li a:hover::after{
+	border-bottom: 2px solid #FF8C00!important;
+	width: 100%;
+}
+.navbar{
+	border-bottom: 1px solid #00008B;
+	color: #E6FA!important;
+}
+.navbar-toggler{
+	border: none!important;
+}
+/*--------Font Page--------*/
+.font-page{
+	padding: 60px 20px 20px;
+}
+.font-page .font-page-text{
+	font-size: 40px;
+	font-family: 'Finger Paint', cursive;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+}
+.font-page-iamge img{
+	width: 100%;
+	height: 100%;
+}
+/*---------About content---------*/
+#about{
+	padding-top: 90px;
+	padding-bottom: 50px;
+	color: #555;
+}
+.about-box{
+	padding: 30px 20px 10px;
+	border-radius: 2%;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.about-content{
+	padding-top: 20px; 
+	text-align: justify;
+}
+.skills-bar p{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar{
+	border-radius: 16px;
+	background-color: #7CFC00!important;
+	color: #111!important;
+}
+.progress{
+	border-radius: 16px!important;
+	margin-bottom: 20px;
+}
+/*------Services-------*/
+#services{
+	color: #000!important;
+	padding-top: 90px;
+	padding-bottom: 50px;
+
+}
+#services h2{
+	text-align: center;
+	color: #000;
+	padding-bottom: 10px;
+}
+#services h2::after{
+	content: '';
+	background-color: #007BFF!important;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.image-icon img{
+	border: 2px solid #00008B;
+	margin: 20px auto;
+	opacity: 0.5;
+	height: 100px;
+	width: 170px;
+	border-radius: 50%;
+}
+.image-icon img:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+.servicesRow{
+	margin-top: 40px;
+}
+#services p{
+	font-size: 16px;
+	margin-top: 20px;
+	color:#000;
+}
+.servicesRow .col-md-4:hover{
+	cursor: pointer;
+	transition: 0.7s;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+} 
+.serviceContents{
+	padding: 10px 30px;
+	text-align: justify;
+}
+/*----------Other services----------*/
+.otherservices{
+	padding-top: 90px;
+	color: #555;
+}
+.otherservices .text-box{
+	padding: 0px 30px;
+}
+.otherservices .ml-5{
+	cursor: pointer;
+}
+.otherservices .ml-5:hover{
+	cursor: pointer;
+	transition: 1s;
+	cursor: #00008B;
+}
+h2{
+	text-align: center;
+	color: #555;
+	padding-bottom: 10px;
+}
+h2::after{
+	content: '';
+	background: #007BFF;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.img-box img{
+	width: 100%;
+	height: 70vh;
+	border: 2px solid #00008B;
+	border-radius: 50%;
+	opacity: 0.5;
+}
+.img-box img:hover{
+	cursor: pointer;
+	opacity: 1.0;
+}
+/*---------Contact Form----------*/
+#contact{
+	background: #EFEFEF;
+	padding: 90px 0px;
+	color: #777;
+	box-sizing: border-box;
+}  
+.contact-form{
+	padding: 15px;
+}
+.form-control{
+	border-radius: 0!important;
+	border: none!important;
+}
+.spons{
+	background: #fff;
+	padding: 35px;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 20px;
+}
+.spons .spons-head{
+	font-size: 40px;
+}
+.spons .spons-text{
+	font-size: 20px;
+	padding: 20px;
+}
+/*----------Contact Details---------*/
+.follow{
+	background: #FFF;
+	padding: 10px;
+	margin: 15px; 
+}
+.contact_info .fa{
+	margin: 10px;
+	color: #111!important;
+	font-weight: bold;
+}
+.social_medial:hover{
+	color: #007BFF!important;
+}
+/*----------Footer---------*/
+#footer{
+	text-align: center;
+	background: #333;
+	color: #FFF;
+	padding: 13px;
+}
